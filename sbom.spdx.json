@@ -1,0 +1,62 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-bird-0.8.0",
+  "creationInfo": {
+    "created": "2026-01-19T15:47:03Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@5.0.11"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/bird-0.8.0.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-bird-src",
+    "SPDXRef-Compiler"
+  ],
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-bird-src",
+      "name": "bird",
+      "versionInfo": "0.8.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2026-01-19 07:15:49 UTC",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://github.com/steipete/bird/releases/download/v0.8.0/bird-macos-universal-v0.8.0.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3d89bb404e8b0ed4ef331f0dc62d873852634ca2a814ae7a4ac7effc114320cf"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "26.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [],
+      "externalRefs": []
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-File-bird",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-bird-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-bird-src"
+    }
+  ]
+}
