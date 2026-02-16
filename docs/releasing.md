@@ -1,7 +1,7 @@
 # Releasing bird
 
 Target destinations:
-- npm: `@steipete/bird`
+- npm: `@laceletho/bird`
 - Homebrew: tap formula in `steipete/homebrew-tap` (e.g., `bird.rb`)
 
 ## Checklist (npm + GitHub)
@@ -16,10 +16,10 @@ Target destinations:
 
 3) Publish to npm (scoped)
    - Ensure you are logged in (`npm whoami`).
-   - `npm publish --access public` (from repo root). Package name is `@steipete/bird`.
+   - `npm publish --access public` (from repo root). Package name is `@laceletho/bird`.
    - Verify:
-     - `npm view @steipete/bird version`
-     - `npx -y @steipete/bird@<version> --help`
+     - `npm view @laceletho/bird version`
+     - `npx -y @laceletho/bird@<version> --help`
 
 4) Git tag & GitHub release
    - `git tag v<version> && git push origin v<version>`
@@ -54,6 +54,6 @@ If you want a single-file binary for Homebrew/GitHub assets:
 4) Update Homebrew tap with new URL/SHA.
 
 ## Notes
-- Scoped npm name (`@steipete/bird`) requires `--access public` on first publish.
+- Scoped npm name (`@laceletho/bird`) requires `--access public` on first publish.
 - Homebrew formula assumes macOS universal binary; adjust URL/name if you ship per-arch.
 - Config defaults (JSON5) and Safari/Chrome/Firefox cookie selection are documented in `README.md` — keep that in sync for each release.

@@ -13,14 +13,14 @@ Bots are not welcome on X/Twitter. If you absolutely have to, use browser automa
 ## Install
 
 ```bash
-npm install -g @steipete/bird
+npm install -g @laceletho/bird
 # or
-pnpm add -g @steipete/bird
+pnpm add -g @laceletho/bird
 # or
-bun add -g @steipete/bird
+bun add -g @laceletho/bird
 
 # one-shot (no install)
-bunx @steipete/bird whoami
+bunx @laceletho/bird whoami
 ```
 
 Homebrew (macOS, prebuilt Bun binary):
@@ -131,7 +131,7 @@ By default, the command fetches from For You, News, Sports, and Entertainment ta
 `bird` can be used as a library (same GraphQL client as the CLI):
 
 ```ts
-import { TwitterClient, resolveCredentials } from '@steipete/bird';
+import { TwitterClient, resolveCredentials } from '@laceletho/bird';
 
 const { cookies } = await resolveCredentials({ cookieSource: 'safari' });
 const client = new TwitterClient({ cookies });

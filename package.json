@@ -1,5 +1,5 @@
 {
-  "name": "@steipete/bird",
+  "name": "@laceletho/bird",
   "version": "0.8.0",
   "description": "CLI tool for tweeting and replying via Twitter/X GraphQL API",
   "type": "module",
