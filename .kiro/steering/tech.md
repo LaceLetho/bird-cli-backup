@@ -1,3 +1,8 @@
+---
+inclusion: auto
+description: Tech stack, build system, dependencies, common commands, and code style rules
+---
+
 # Tech Stack
 
 ## Language & Runtime

@@ -1,3 +1,8 @@
+---
+inclusion: auto
+description: Project organization, architecture patterns, and naming conventions
+---
+
 # Project Structure
 
 ## Directory Layout

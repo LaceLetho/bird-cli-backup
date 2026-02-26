@@ -1,3 +1,8 @@
+---
+inclusion: auto
+description: Overview of bird's purpose, core functionality, and API constraints
+---
+
 # Product Overview
 
 bird is a fast CLI tool for interacting with X/Twitter via their undocumented GraphQL API using cookie-based authentication.
