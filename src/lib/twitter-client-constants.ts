@@ -34,7 +34,7 @@ export const FALLBACK_QUERY_IDS = {
   BookmarkFolderTimeline: 'KJIQpsvxrTfRIlbaRIySHQ',
   ListOwnerships: 'wQcOSjSQ8NtgxIwvYl1lMg',
   ListMemberships: 'BlEXXdARdSeL_0KyKHHvvg',
-  ListLatestTweetsTimeline: '2TemLyqrMpTeAmysdbnVqw',
+  ListLatestTweetsTimeline: 'EaZggwYxthCW30dKBN807Q',
   ListByRestId: 'wXzyA5vM_aVkBL9G8Vp3kw',
   HomeTimeline: 'edseUwk9sP5Phz__9TIRnA',
   HomeLatestTimeline: 'iOEZpOdfekFsxSlPQCQtPg',
