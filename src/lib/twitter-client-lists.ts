@@ -115,7 +115,7 @@ export function withLists<TBase extends AbstractConstructor<TwitterClientBase>>(
 
     private async getListTimelineQueryIds(): Promise<string[]> {
       const primary = await this.getQueryId('ListLatestTweetsTimeline');
-      return Array.from(new Set([primary, '2TemLyqrMpTeAmysdbnVqw']));
+      return Array.from(new Set([primary, 'EaZggwYxthCW30dKBN807Q']));
     }
 
     /**
