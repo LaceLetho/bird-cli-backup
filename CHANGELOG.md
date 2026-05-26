@@ -3,7 +3,7 @@
 ## 0.8.1 — 2026-05-26
 
 ### Fixed
-- (add release notes here)
+- update ListLatestTweetsTimeline query ID (expired fallback)
 
 ## 0.8.0 — 2026-01-19
 
